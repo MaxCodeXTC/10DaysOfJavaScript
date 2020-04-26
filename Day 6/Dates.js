@@ -5,4 +5,5 @@ function getDayName(dateString) {
     let date = new Date(dateString)
     dayName = date.getDay();
     return dayNames[dayName];
+    
 }
